@@ -18,4 +18,13 @@ export class SolicitudComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  enviar(saludo: string) {
+    console.log("Hola " + saludo + "!");
+    console.log(this.solicitud.nombre);
+  }
+
+  delete() {
+    console.clear();
+    console.log('eliminar!');
+    }
 }

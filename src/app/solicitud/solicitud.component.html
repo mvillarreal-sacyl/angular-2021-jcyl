@@ -1,3 +1,10 @@
 <p [style.color]="+solicitud.nombre > 0.5 ? 'red' : 'blue'">solicitud works!</p>
 
 {{solicitud.nombre}}
+
+<div class="control">
+    <button class="button is-primary" (click)="enviar('Manuel')">Enviar</button>
+</div>
+<div class="control">
+    <button class="button is-primary" (click)="delete()">Borrar consola</button>
+</div>
